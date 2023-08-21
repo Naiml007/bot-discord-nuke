@@ -1,13 +1,13 @@
 {
-	"name": "dc-nuke",
+	"name": "discord-bot-nuke",
 	"version": "1.0.0",
-	"description": "dc-nuke ======= A Discord bot server nuker written in Node.js",
+	"description": "Bot for Discord to destroy servers",
 	"main": "index.js",
 	"scripts": {
 		"start": "node ."
 	},
 	"keywords": [],
-	"author": "",
+	"author": "NeguinDev",
 	"license": "ISC",
 	"dependencies": {
 		"discord.js": "^14.13.0"
