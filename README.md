@@ -1,26 +1,22 @@
 Discord Nuke
 =======
-Bot for Discord to Destroy Servers
+Bot for Discord to destroy servers
 
-Features
-========
+## Features
 * Destroys all the servers that the bot is
 
-Installation
-========
-
-```bash
-npm install
-```
-
-Settings
+## Settings
 Edit line 3 in index.js to your token
 ```js
 const token = '';
 ```
 
-Usage
-========
+## Installation
+```bash
+npm install
+```
+
+## Usage
 ```bash
 node index.js
 ```
