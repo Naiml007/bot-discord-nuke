@@ -17,3 +17,9 @@ edit line 3 in index.js to your token
 ```js
 const token = '';
 ```
+
+Usage
+========
+```bash
+node index.js
+```
