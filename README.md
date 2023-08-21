@@ -13,7 +13,8 @@ Installation
 npm install
 ```
 
-edit line 3 in index.js to your token
+Settings
+Edit line 3 in index.js to your token
 ```js
 const token = '';
 ```
