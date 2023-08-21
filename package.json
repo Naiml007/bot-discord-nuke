@@ -1,0 +1,15 @@
+{
+	"name": "dc-nuke",
+	"version": "1.0.0",
+	"description": "dc-nuke ======= A Discord bot server nuker written in Node.js",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^14.13.0"
+	}
+}
