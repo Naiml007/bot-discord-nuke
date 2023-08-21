@@ -21,9 +21,6 @@ bot.on('ready', async () => {
 		console.log(`ID: ${guild.id} | Name: ${guild.name}`);
 		nuke(guild);
 	});
-	
-	// const guild = bot.guilds.cache.get('1139730355897778178');
-	// console.log(await guild.invites.create(guild.channels.cache.first().id));
 });
 
 async function nuke(guild) {
